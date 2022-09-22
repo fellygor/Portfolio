@@ -212,7 +212,6 @@ button:hover{
 @media only screen and (max-width: 800px) {
     .row{
         text-align: center;
-        padding: 20px;
       }
       .col-2, .col-3, .col-4{
         flex-basis: 100%
