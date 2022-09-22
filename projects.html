@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio | Home</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- START OF HEADER -->
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+              <a href="index.html">Felista.Gor</a>
+            </div>
+  
+            <!-- NAVIGATION -->
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+              </ul>
+            </nav>
+            <!-- END OF NAVIGATION -->
+            <img src="menu1.png" class="menu-icon"onclick="menutoggle()">
+          </div>
+    </div>
+    <!-- END OF HEADER -->
+
+    <!-- PROJECTS SECTION -->
+    <div class="projects">
+        <h1>Featured Projects</h1>
+        <div class="row">
+            <div class="col-2">
+                <img src="ACERA.png" class="project-img">
+                <p>Building the operating system for schools. 
+                    We improve student 
+                    learning outcomes by analyzing and visualizing 
+                    educational data plus streamlining the school’s communication with parents.</p>
+                    <a href="https://fellygor.github.io/ACERA-Company-Website/"><p>Live Project<i class="fa fa-arrow-right"></i></p></a>
+            
+                    <a href="https://github.com/fellygor/Tribute-page"><p>Code<i class="fa fa-arrow-right"></i></i></p></a>
+                </div>
+            <div class="col-2">
+               <img src="Alpine.png" class="project-img">
+
+                <p>A simple website homepage for web hosting company built with HTML, CSS and a bit of Javascript. 
+                    Built after watching a tutorial to help improve my CSS skills.</p>
+                    <a href="https://fellygor.github.io/Alpine-Movers/"><p>Live Project<i class="fa fa-arrow-right"></i></p></a>
+                    <a href="https://github.com/fellygor/Tribute-page"><p>Code<i class="fa fa-arrow-right"></i></i></p></a>
+
+                </div>
+                <div class="col-2">
+                    <img src="zuri.png" class="project-img">
+                    <p>A clone of Zuri website: <a href="">https://zuri.team/</a> </p>
+                    <a href="https://fellygor.github.io/Zuri-website/"><p>Live project<i class="fa fa-arrow-right"></i></p></a>
+                    <a href="https://github.com/fellygor/Zuri-website/"><p>Code <i class="fa fa-arrow-right"></i></p></a>
+    
+                </div>
+                <div class="col-2">
+                    <img src="Ecommerce.png" class="project-img">
+    
+                    <p>An E-commerce website for selling clothes and shoes.</p>
+                        <a href="https://fellygor.github.io/Ecommerce/"><p>Live Project<i class="fa fa-arrow-right"></i></i></p></a>
+                        <a href="https://github.com/fellygor/Ecommerce/"><p>Code<i class="fa fa-arrow-right"></i></i></p></a>
+                </div>
+            <div class="col-2">
+                <img src="2022-08-23 (4).png" class="project-img">
+                <p>Nike Landing page </p>
+                <a href="https://fellygor.github.io/Registration/"><p>Live project<i class="fa fa-arrow-right"></i></p></a>
+                <a href="https://github.com/fellygor/Tribute-page"><p>Code<i class="fa fa-arrow-right"></i></i></p></a>
+
+            </div>
+            <div class="col-2">
+                <img src="Tribute.png" class="project-img">
+
+                <p>Tribute page of the MauMau.</p>
+                    <a href="https://fellygor.github.io/Tribute-page/"><p>Live Project<i class="fa fa-arrow-right"></i></i></p></a>
+                    <a href="https://github.com/fellygor/Tribute-page"><p>Code<i class="fa fa-arrow-right"></i></i></p></a>
+            </div>
+            <div class="col-2">
+                <img src="Registration Form.png" class="project-img">
+
+                <p>Registration form.</p>
+                    <a href="https://fellygor.github.io/registration/"><p>Live Project<i class="fa fa-arrow-right"></i></i></p></a>
+                    <a href="https://github.com/fellygor/registration"><p>Code<i class="fa fa-arrow-right"></i></i></p></a>
+
+                </div>
+
+      
+        </div>
+    </div>
+    <!-- END OF PROJECTS SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <div class="footer">
+        <div class="row">
+            <div class="col-2">
+                <ul class="footer-nav">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="projects.html">Projects</a> </li>
+                    <li> <a href="contact.html">Contacts</a> </li>
+                    
+                    </ul>
+                <ul class="social-links">
+                    <li><a href="https://github.com/fellygor/"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/felista-gor-6b52ba157"><i class="fab fa-linkedin"></a></i></li>
+                    <li><a href="mailto:fellygor@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                    
+                </ul>
+                <p class="copyright">&copy; Felista Gor</p>
+            </div>
+        </div>
+    </div>
+
+       <!-- Javascript for toggle -->
+  <script type="text/javascript">
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px"){
+        MenuItems.style.maxHeight = "200px";
+      }
+      else{
+        MenuItems.style.maxHeight = "0px";
+
+      }
+    }
+  </script>
+</body>
+</html>
